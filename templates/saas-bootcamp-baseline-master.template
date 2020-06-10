@@ -1,6 +1,7 @@
 ---
 AWSTemplateFormatVersion: 2010-09-09
 Description: SaaS Bootcamp Master Stack
+on_failure: DO_NOTHING #configures for all stacks in this config file
 Parameters:
   QSS3BucketName:
     Description: S3 bucket name for the Bootcamp assets. Bootcamp bucket name
